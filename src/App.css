@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+:root {
+  --bg: #fafaff;
+  --blue-lt: #f2f4ff;
+  --blue: #7b88ff;
+  --blue-deep: #5364ff;
+  --yellow: #ffcd48;
+  --hotPink: #ff487f;
+  --secondary: #4f8a8b;
+  --white: #fff;
+  --dark: #150b33;
+  /* shadows */
+  --Header1-shadow: 0px 15px 35px rgba(123, 136, 255, 0.1);
+  --Header2-shadow: 0px 15px 35px rgba(123, 136, 255, 0.3);
+  --card-shadow: 0px 15px 30px -5px rgba(123, 136, 255, 0.1);
+  --button-shadow: 0px 10px 15px -4px rgba(123, 136, 255, 0.4);
+  --blue-shadow: 0px 5px 15px rgba(123, 136, 255, 0.5);
+  --yellow-shadow: 0px 5px 15px rgba(255, 205, 72, 0.5);
+  --pink-shadow: 0px 5px 15px rgba(255, 72, 127, 0.5);
+}
+* {
+  font-family: "Lato", sans-serif !important;
+}
+body {
+  min-height: 100vh;
+}
