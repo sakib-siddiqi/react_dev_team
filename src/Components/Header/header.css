@@ -1,0 +1,13 @@
+@import url("../../App.css");
+#header1 {
+  color: var(--blue-deep);
+  background: var(--white);
+  box-shadow: var(--Header1-shadow);
+  letter-spacing: var(--em05);
+}
+#header2 {
+  color: var(--white);
+  background: var(--blue);
+  box-shadow: var(--Header2-shadow);
+  letter-spacing: var(--em1);
+}
