@@ -1,8 +1,8 @@
 import React from "react";
 
 const Member = (props) => {
-  const {dev,myHandler}=props;
-  const { name, img, experience, country, role, selery, language_icon } =dev;
+  const { dev, myHandler } = props;
+  const { name, img, experience, country, role, selery, language_icon } = dev;
   const [icon_one, icon_two, icon_three] = language_icon;
   return (
     <article className="col">
@@ -36,7 +36,7 @@ const Member = (props) => {
               <i className={icon_three}></i>
             </div>
           </div>
-          <button className="add-btn my-4" onClick={()=>myHandler(dev)}>
+          <button className="add-btn mt-4 mb-3" onClick={(thisBtn) => myHandler(dev,thisBtn.target)}>
             <i className="far fa-user-circle"></i> Add To Team
           </button>
         </div>

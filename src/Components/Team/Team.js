@@ -10,11 +10,21 @@ const Team = () => {
       .then((res) => res.json())
       .then((data) => setDevs(data));
   }, []);
-  const handler = (item) => {
-    const NewAddedDevsList = [...addedDevs, item];
+  const handler = (item, thatBtn) => {
+    thatBtn.classList.add("disableMe");
+    thatBtn.innerHTML = `<i class="fas fa-user-check"></i> Wellcome`;
+    let NewAddedDevsList;
+    const dontAddToList = () => {
+      const newItem = item.id;
+      const check = addedDevs.find((dev) => dev.id === newItem);
+      check
+        ? (NewAddedDevsList = [...addedDevs])
+        : (NewAddedDevsList = [...addedDevs, item]);
+    };
+    addedDevs.length
+      ? dontAddToList()
+      : (NewAddedDevsList = [...addedDevs, item]);
     setAddedDevs(NewAddedDevsList);
-    console.log("new devs", addedDevs);
-    // addedDevs.includes(item) ? console.log(false) : console.log(true);
   };
   return (
     <div className="container my-5">
@@ -23,7 +33,7 @@ const Team = () => {
           <Members devs={devs} myHandler={handler} />
         </div>
         <div className="col-12 col-md-3">
-          <AddedDetails addedDevsList={addedDevs}/>
+          <AddedDetails addedDevsList={addedDevs} />
         </div>
       </div>
     </div>

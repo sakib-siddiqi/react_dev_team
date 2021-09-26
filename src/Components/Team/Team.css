@@ -1,4 +1,5 @@
-@import url('../../App.css');
+@import url("../../App.css");
+/* member card style */
 .circle-img {
   min-width: 100px;
   max-width: 150px;
@@ -14,63 +15,72 @@
   box-shadow: 0px 15px 30px -5px rgba(123, 136, 255, 0.1);
   border-radius: 5px;
 }
-.member-name{
-    letter-spacing: var(--em05);
-    color: var(--dark);
+.member-name {
+  letter-spacing: var(--em05);
+  color: var(--dark);
 }
-.my-text{
-    letter-spacing: var(--em05);
-    color: var(--secondary);
-    font-weight: 600;
-    font-size: 14px;
+/* secondary text style */
+.my-text {
+  letter-spacing: var(--em05);
+  color: var(--secondary);
+  font-weight: 600;
+  font-size: 14px;
 }
-hr{
-    background: var(--blue-deep);
+hr {
+  background: var(--blue-deep);
 }
-.selery{
-    background: var(--blue-lt);
-    font-weight: 800;
-    letter-spacing: var(--em1);
-    color: var(--blue-deep);
+/* selery style */
+.selery {
+  background: var(--blue-lt);
+  font-weight: 800;
+  letter-spacing: var(--em1);
+  color: var(--blue-deep);
 }
-
-.location-icon{
-    color: var(--hotPink);
-}
-.skill-box{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.skill{
-    background: var(--blue);
-    color: var(--white);
-    box-shadow: var(--blue-shadow);
-    border-radius: 1000px;
-    width: 55px;
-    aspect-ratio: 1/1;
-    font-size: 35px;
-}
-.skill:nth-child(2){
-    background: var(--yellow);
-    color: var(--white);
-    box-shadow: var(--yellow-shadow);
-}
-.skill:nth-child(3){
-    background: var(--hotPink);
-    color: var(--white);
-    box-shadow: var(--pink-shadow);
+/* location icon */
+.location-icon {
+  color: var(--hotPink);
 }
 
-.add-btn{
-    padding: 10px 28px;
-    background: var(--blue);
-    color: var(--white);
-    box-shadow: var(--button-shadow);
-    border: 0;
-    outline: 0;
-    border-radius: 1000px;
-    font-weight: bold;
-    letter-spacing: var(--em05);
+/* skill icons */
+.skill-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill {
+  background: var(--blue);
+  color: var(--white);
+  box-shadow: var(--blue-shadow);
+  border-radius: 1000px;
+  width: 55px;
+  aspect-ratio: 1/1;
+  font-size: 35px;
+}
+.skill:nth-child(2) {
+  background: var(--yellow);
+  color: var(--white);
+  box-shadow: var(--yellow-shadow);
+}
+.skill:nth-child(3) {
+  background: var(--hotPink);
+  color: var(--white);
+  box-shadow: var(--pink-shadow);
+}
+/* Add To Team Button */
+.add-btn {
+  padding: 10px 28px;
+  background: var(--blue);
+  color: var(--white);
+  box-shadow: var(--button-shadow);
+  border: 0;
+  outline: 0;
+  border-radius: 1000px;
+  font-weight: bold;
+  letter-spacing: var(--em05);
+}
+.disableMe{
+    background: #ddd;
+    box-shadow: none;
+    cursor:not-allowed !important;
 }

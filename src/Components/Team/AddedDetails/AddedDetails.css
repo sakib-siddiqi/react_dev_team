@@ -15,3 +15,16 @@
     font-weight: bold;
     border-radius: 4px;
 }
+.addedMembersBox{
+    aspect-ratio: 1/1;
+    overflow-y: scroll;
+    padding: 5px;
+}
+.addedMembersBox::-webkit-scrollbar{
+    width: 5px;
+    background: var(--blue-lt);
+}
+.addedMembersBox::-webkit-scrollbar-thumb{
+    background: var(--hotPink);
+    border-radius: 1000px;
+}
