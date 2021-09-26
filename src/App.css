@@ -21,10 +21,15 @@
   --em05:0.05em;
   --em1:0.1em;
 }
-* {
+*:not(i) {
   font-family: "Lato", sans-serif !important;
 }
 body {
   min-height: 100vh;
   background: var(--bg);
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Aria Maria",
+    "img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+    "experience": 3,
+    "country": "Canada",
+    "role": "Web Developer",
+    "language_icon": [
+      "fab fa-react",
+      "fab fa-vuejs",
+      "fab fa-angular"
+    ],
+    "selery": 1500
+  },
+  {
+    "name": "Qazi",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-n8Tnh34qUIbE15b9IGoCXMQCg8skSMuTUfYKKSGAUUergCBV1znifi2aIY8C0e3nCBE&usqp=CAU",
+    "experience": 7,
+    "country": "USA",
+    "role": "Web Developer",
+    "language_icon": [
+      "fab fa-react",
+      "fab fa-vuejs",
+      "fab fa-angular"
+    ],
+    "selery": 4000
+  },
+  {
+    "name": "Shumit Shah",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZkhI4nvmAK9PSEFaOVSdmfxfoVZBzQeIYgQ&usqp=CAU",
+    "experience": 12,
+    "country": "USA",
+    "role": "Web Developer",
+    "language_icon": [
+      "fab fa-react",
+      "fab fa-node-js",
+      "fab fa-angular"
+    ],
+    "selery": 6000
+  },
+  {
+    "name": "CS Do.Jo.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjwlxbC5WJUIE6fMatwdb8dwu5nRgEnc0Rf5o9mV5vOAg_V94dHYmg8mv0-25Tm42HwBI&usqp=CAU",
+    "experience": 10,
+    "country": "Japan",
+    "role": "CS Engineer",
+    "language_icon": [
+      "fab fa-js-square",
+      "fab fa-python",
+      "fab fa-java"
+    ],
+    "selery": 8000
+  },
+  {
+    "name": "Dev ED",
+    "img": "https://yt3.ggpht.com/ytc/AKedOLSB-oR-xmvVSZXJ3gbK12uvv0AJUvajwxMie_R_uw=s900-c-k-c0x00ffffff-no-rj",
+    "experience": 10,
+    "country": "USA",
+    "role": "Web Developer",
+    "language_icon": [
+      "fab fa-react",
+      "fab fa-vuejs",
+      "fab fa-angular"
+    ],
+    "selery": 6000
+  },
+  {
+    "name": "Abiul AD.",
+    "img": "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
+    "experience": 3,
+    "country": "Canada",
+    "role": "Web Developer",
+    "language_icon": [
+      "fab fa-node-js",
+      "fab fa-vuejs",
+      "fab fa-linode"
+    ],
+    "selery": 1000
+  },
+  {
+    "name": "Rashid Khan",
+    "img": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+    "experience": 6,
+    "country": "Dubai",
+    "role": "Web Developer",
+    "language_icon": [
+      "fab fa-react",
+      "fab fa-vuejs",
+      "fab fa-angular"
+    ],
+    "selery": 2000
+  },
+  {
+    "name": "Polard",
+    "img": "https://media.istockphoto.com/photos/success-happens-the-moment-you-believe-it-will-picture-id1262964438?b=1&k=20&m=1262964438&s=170667a&w=0&h=rgmdwXyMrmNuY_3BlmBFI0MdeayurqAjQSvweG4Htso=",
+    "experience": 2,
+    "country": "Dubai",
+    "role": "UI/UX & JS",
+    "language_icon": [
+      "fab fa-figma",
+      "fab fa-react",
+      "fab fa-javascript"
+    ],
+    "selery": 1000
+  },
+  {
+    "name": "Jesica Jessi",
+    "img": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+    "experience": 2,
+    "country": "France",
+    "role": "UI/UX & JS",
+    "language_icon": [
+      "fab fa-figma",
+      "fab fa-react",
+      "fab fa-javascript"
+    ],
+    "selery": 1000
+  },
+  {
+    "name": "Amenda Cerry",
+    "img": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+    "experience": 3,
+    "country": "USA",
+    "role": "UI/UX & JS",
+    "language_icon": [
+      "fab fa-react",
+      "fab fa-vuejs",
+      "fab fa-angular"
+    ],
+    "selery": 1200
+  }
+]
