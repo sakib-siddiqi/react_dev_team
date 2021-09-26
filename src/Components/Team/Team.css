@@ -92,6 +92,7 @@ hr {
     box-shadow: none;
     color: #999;
     cursor:not-allowed !important;
+    pointer-events: none;
 }
 .disableMe:hover{
     background: #ddd;
