@@ -11,6 +11,7 @@ const Team = () => {
       .then((data) => setDevs(data));
   }, []);
   const handler = (item, thatBtn) => {
+    console.log(thatBtn)
     // disable button after clicking
     thatBtn.classList.add("disableMe");
     thatBtn.innerHTML = `<i class="fas fa-user-check"></i> Wellcome`;

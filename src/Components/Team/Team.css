@@ -80,6 +80,9 @@ hr {
   letter-spacing: var(--em05);
   transition: all 0.2s;
 }
+.add-btn i{
+  pointer-events: none;
+}
 .add-btn:hover{
   background: var(--hotPink);
   box-shadow: var(--pink-shadow);
