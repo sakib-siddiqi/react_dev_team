@@ -1,7 +1,7 @@
 # S.S. Dev. Team
 
 <blockquote>
-<a href="https://dev-team-s15.netlify.app/">🧐Let's take a look</a>
+<a href="https://dev-team-s15.netlify.app/" target="_blank">🧐Let's take a look</a>
 </blockquote>
 
 ## Language
