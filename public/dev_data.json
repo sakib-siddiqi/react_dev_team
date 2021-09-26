@@ -76,7 +76,7 @@
     "experience": 2,
     "country": "Dubai",
     "role": "UI/UX & JS",
-    "language_icon": ["fab fa-figma", "fab fa-react", "fab fa-javascript"],
+    "language_icon": ["fab fa-figma", "fab fa-react", "fab fa-js-square"],
     "selery": 1000
   },
   {
@@ -86,7 +86,7 @@
     "experience": 2,
     "country": "France",
     "role": "UI/UX & JS",
-    "language_icon": ["fab fa-figma", "fab fa-react", "fab fa-javascript"],
+    "language_icon": ["fab fa-figma", "fab fa-react", "fab fa-js-square"],
     "selery": 1000
   },
   {
