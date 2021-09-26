@@ -1,4 +1,11 @@
 @import url("../../App.css");
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header
 #header1 {
   color: var(--blue-deep);
   background: var(--white);

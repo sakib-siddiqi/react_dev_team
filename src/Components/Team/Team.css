@@ -22,7 +22,7 @@
 /* secondary text style */
 .my-text {
   letter-spacing: var(--em05);
-  color: var(--secondary);
+  color: var(--blue-deep);
   font-weight: 600;
   font-size: 14px;
 }
@@ -82,5 +82,6 @@ hr {
 .disableMe{
     background: #ddd;
     box-shadow: none;
+    color: #999;
     cursor:not-allowed !important;
 }

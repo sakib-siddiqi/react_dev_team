@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Header from "./Components/Header/Header";
+import MainHeader from "./Components/Header/MainHeader";
 import Team from "./Components/Team/Team";
 function App() {
   return (
     <main>
-      <Header />
+      <MainHeader />
       <Team />
     </main>
   );

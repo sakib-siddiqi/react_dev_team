@@ -1,14 +1,15 @@
-import React from 'react';
-import Header1 from './Header1';
-import Header2 from './Header2';
+import React from "react";
 
-const Header = () => {
-    return (
-        <header>
-            <Header1/>
-            <Header2/>
-        </header>
-    );
+const Header = (props) => {
+  const { id, data } = props;
+  return (
+    <h3
+      id={id}
+      className="py-3 px-5 d-inline-block rounded-pill text-center fw-bold rounded-3 my-3 mx-2"
+    >
+      <i className="fas fa-dollar-sign"></i> {data}
+    </h3>
+  );
 };
 
 export default Header;
