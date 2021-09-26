@@ -11,9 +11,11 @@ const Team = () => {
       .then((data) => setDevs(data));
   }, []);
   const handler = (item, thatBtn) => {
+    // disable button after clicking
     thatBtn.classList.add("disableMe");
     thatBtn.innerHTML = `<i class="fas fa-user-check"></i> Wellcome`;
     let NewAddedDevsList;
+    // if developer is already in the added list then don't add it again 
     const dontAddToList = () => {
       const newItem = item.id;
       const check = addedDevs.find((dev) => dev.id === newItem);
@@ -26,6 +28,7 @@ const Team = () => {
       : (NewAddedDevsList = [...addedDevs, item]);
     setAddedDevs(NewAddedDevsList);
   };
+  
   return (
     <div className="container my-5">
       <div className="row g-4">

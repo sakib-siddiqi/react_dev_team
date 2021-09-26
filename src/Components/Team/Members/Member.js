@@ -1,5 +1,5 @@
 import React from "react";
-
+// single member card
 const Member = (props) => {
   const { dev, myHandler } = props;
   const { name, img, experience, country, role, selery, language_icon } = dev;

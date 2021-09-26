@@ -15,11 +15,13 @@
     font-weight: bold;
     border-radius: 4px;
 }
+/* added member box style */
 .addedMembersBox{
     aspect-ratio: 3/2;
     overflow-y: scroll;
     padding: 5px;
 }
+/* scrollbar styled */
 .addedMembersBox::-webkit-scrollbar{
     width: 5px;
     background: var(--blue-lt);

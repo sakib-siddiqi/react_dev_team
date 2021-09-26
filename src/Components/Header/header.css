@@ -5,13 +5,14 @@ header{
   align-items: center;
   flex-wrap: wrap;
 }
-header
+
 #header1 {
   color: var(--blue-deep);
   background: var(--white);
   box-shadow: var(--Header1-shadow);
   letter-spacing: var(--em05);
 }
+
 #header2 {
   color: var(--white);
   background: var(--blue);
