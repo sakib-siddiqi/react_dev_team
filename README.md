@@ -1,4 +1,4 @@
-<h1>S.S. Dev. Team</h1>
+# S.S. Dev. Team
 <blockquote>👀 Let's take a look</blockquote>
 <a href="https://dev-team-s15.netlify.app/">Live Preview</a>
 <blockquote>Language : Javascrpt</blockquote>
