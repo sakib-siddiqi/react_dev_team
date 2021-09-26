@@ -78,10 +78,20 @@ hr {
   border-radius: 1000px;
   font-weight: bold;
   letter-spacing: var(--em05);
+  transition: all 0.2s;
+}
+.add-btn:hover{
+  background: var(--hotPink);
+  box-shadow: var(--pink-shadow);
 }
 .disableMe{
     background: #ddd;
     box-shadow: none;
     color: #999;
     cursor:not-allowed !important;
+}
+.disableMe:hover{
+    background: #ddd;
+    box-shadow: none;
+    color: #999;
 }
