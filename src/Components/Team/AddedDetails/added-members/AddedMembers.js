@@ -1,15 +1,13 @@
 import React from "react";
 import AddedSingleMember from "./AddedSingleMember";
 
-const AddedMembers = () => {
+const AddedMembers = (props) => {
+  const addedDevsList = props.addedDevsList;
   return (
     <div>
-      <AddedSingleMember name="Aria Maria"/>
-      <AddedSingleMember name="Aria Maria"/>
-      <AddedSingleMember name="Aria Maria"/>
-      <AddedSingleMember name="Aria Maria"/>
-      <AddedSingleMember name="Aria Maria"/>
-      <AddedSingleMember name="Aria Maria"/>
+      {addedDevsList.map((singleAddedDev) => (
+        <AddedSingleMember name={singleAddedDev.name} key={singleAddedDev.id} />
+      ))}
     </div>
   );
 };

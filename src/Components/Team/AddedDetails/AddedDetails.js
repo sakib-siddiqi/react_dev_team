@@ -3,12 +3,12 @@ import AddedMembers from "./added-members/AddedMembers";
 import "./AddedDetails.css";
 import CostTable from "./CostTable";
 
-const AddedDetails = () => {
+const AddedDetails = (props) => {
   return (
     <div className="sticky-top" style={{ top: "3%" }}>
-      <CostTable />
+      <CostTable addedDevsList={props.addedDevsList} />
       <hr />
-      <AddedMembers />
+      <AddedMembers addedDevsList={props.addedDevsList} />
     </div>
   );
 };
