@@ -12,8 +12,12 @@
   box-shadow: var(--button-shadow);
 }
 .member-card {
-  box-shadow: 0px 15px 30px -5px rgba(123, 136, 255, 0.1);
+  box-shadow: var(--card-shadow);
   border-radius: 5px;
+  transition: 0.2s;
+}
+.member-card:hover{
+  box-shadow: 0px 15px 30px -5px #7b88ff40;
 }
 .member-name {
   letter-spacing: var(--em05);
@@ -29,6 +33,7 @@
 hr {
   background: var(--blue-deep);
 }
+
 /* selery style */
 .selery {
   background: var(--blue-lt);

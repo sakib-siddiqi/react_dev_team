@@ -17,7 +17,7 @@
 }
 /* added member box style */
 .addedMembersBox{
-    aspect-ratio: 3/2;
+    max-height: 200px;
     overflow-y: scroll;
     padding: 5px;
 }
@@ -29,4 +29,5 @@
 .addedMembersBox::-webkit-scrollbar-thumb{
     background: var(--hotPink);
     border-radius: 1000px;
+    box-shadow: 0px 0px 5px 1px #ff149320;
 }

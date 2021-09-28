@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import AddedDetails from "./AddedDetails/AddedDetails";
 import Members from "./Members/Members";
 import "./Team.css";
+import "../../vivify.min.css";
 const Team = () => {
   const [devs, setDevs] = useState([]);
   const [addedDevs, setAddedDevs] = useState([]);
@@ -15,7 +16,7 @@ const Team = () => {
     thatBtn.classList.add("disableMe");
     thatBtn.innerHTML = `<i class="fas fa-user-check"></i> Wellcome`;
     let NewAddedDevsList;
-    // if developer is already in the added list then don't add it again 
+    // if developer is already in the added list then don't add it again
     const dontAddToList = () => {
       const newItem = item.id;
       const check = addedDevs.find((dev) => dev.id === newItem);
@@ -28,7 +29,6 @@ const Team = () => {
       : (NewAddedDevsList = [...addedDevs, item]);
     setAddedDevs(NewAddedDevsList);
   };
-  
   return (
     <div className="container my-5">
       <div className="row g-4">

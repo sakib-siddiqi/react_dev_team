@@ -36,7 +36,17 @@ const Member = (props) => {
               <i className={icon_three}></i>
             </div>
           </div>
-          <button className="add-btn mt-4 mb-3" onClick={(thisBtn) => myHandler(dev,thisBtn.target)}>
+          <button
+            className="add-btn mt-4 mb-3"
+            onClick={(thisBtn) => {
+              myHandler(dev, thisBtn.target);
+              // animation added for added new Member
+              setTimeout(() => {
+                var a = document.getElementsByClassName("addedSingleMember");
+                a[a.length - 1].classList.add("pulsate", "duration-550");
+              }, 0.001);
+            }}
+          >
             <i className="far fa-user-circle"></i> Add To Team
           </button>
         </div>
