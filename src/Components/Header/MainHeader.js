@@ -8,8 +8,8 @@ const MainHeader = () => {
     
         <header className="mb-5 py-5">
           <div className="container">
-             <div className='row g-5'>
-                  <div className="col-12 col-md-9 col-lg-9">
+             <div className='row'>
+                  <div className="col-12 col-md-9 col-lg-9 text-center text-md-start mb-4 mb-md-auto">
                     <h1 id="header1" className="fw-bolder">
                       DEV TEAM
                     </h1>
